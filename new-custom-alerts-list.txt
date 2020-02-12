@@ -1,0 +1,2 @@
+new-custom-alert-files/SLO-service.cpu.perRequest-ABOVE-AVG-service-aws.json
+new-custom-alert-files/SLO-service.cpu.perRequest-BELOW-AVG-service-aws.json

@@ -1,0 +1,8 @@
+list_customsealerts_api : /api/config/v1/anomalyDetection/metricEvents
+post_customalerts_api : /api/config/v1/anomalyDetection/metricEvents
+update_customalert_api : /api/config/v1/anomalyDetection/metricEvents/
+custom_alert_path : /#settings/anomalydetection/metricevents;gf=all
+custom_alert_type : values
+nameKey_custom_alert : name
+nameKey_custom_alert_2 : id
+eventKey_custom_alert : eventType

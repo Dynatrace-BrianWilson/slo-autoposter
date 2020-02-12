@@ -1,0 +1,30 @@
+{
+    "metadata": {
+      "configurationVersions": [
+        0
+      ],
+      "clusterVersion": ""
+    },
+    "metricId": "builtin:service.cpu.perRequest",
+    "name": "SLO-service.cpu.perRequest-ABOVE-AVG-service-aws",
+    "description": "SLO Violation The {metricname} value of {severity} was {alert_condition} your custom threshold of {threshold}.",
+    "aggregationType": "AVG",
+    "eventType": "CUSTOM_ALERT",
+    "severity": "CUSTOM_ALERT",
+    "alertCondition": "ABOVE",
+    "samples": 5,
+    "violatingSamples": 1,
+    "dealertingSamples": 5,
+    "threshold": 50000,
+    "enabled": true,
+    "alertingScope": [
+      {
+        "filterType": "NAME",
+        "nameFilter": {
+          "value": "/aws - dev-shared-service-group9",
+          "operator": "EQUALS"
+        }
+      }
+    ],
+    "unit": "MILLI_SECOND"
+  }
